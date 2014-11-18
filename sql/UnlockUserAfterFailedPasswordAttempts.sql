@@ -1,0 +1,1 @@
+alter user KCDEV30A Account unlock;

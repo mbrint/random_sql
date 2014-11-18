@@ -1,0 +1,2 @@
+select 'alter sequence ' || sequence_name || ' increment by 1000;select ' || sequence_name || '.nextval from dual; alter sequence ' || sequence_name || ' increment by 1;'
+from all_sequences where sequence_owner = 'MG_511';

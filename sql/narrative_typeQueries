@@ -1,0 +1,5 @@
+select *
+from VALID_NARR_FORMS 
+where narrative_type_code in ('55','56','60','900','901');
+
+select * from narrative_type where narrative_type_code in ('299','55','56','60','900','901');
